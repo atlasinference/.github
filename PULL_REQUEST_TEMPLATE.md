@@ -1,21 +1,13 @@
-## Description
+## Summary
 
-A clear and concise summary of the changes proposed in this pull request.
+<!-- Describe what this pull request changes and why. -->
 
-Fixes #(issue number)
+## Related Issues
 
-## Type of Change
-
-- [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation update
-- [ ] Refactoring / Code Quality Improvement
+<!-- Link any related issues (e.g., Fixes #12). -->
 
 ## Checklist
 
-- [ ] My code follows the style guidelines of this project
-- [ ] I have performed a self-review of my code
-- [ ] I have added/updated unit tests that prove my fix is effective or that my feature works
-- [ ] New and existing unit tests pass locally with my changes
-- [ ] Documentation has been updated to reflect these changes
+- [ ] Code follows the repository's style and linting guidelines
+- [ ] Tests have been added or updated to cover the changes
+- [ ] Documentation (`README.md`, docstrings, or specs) has been updated if needed

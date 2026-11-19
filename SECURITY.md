@@ -1,25 +1,15 @@
 # Security Policy
 
-## Supported Versions
-
-We issue security updates for the latest supported versions of our project:
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 2.x     | :white_check_mark: |
-| 1.x     | :x:                |
-
 ## Reporting a Vulnerability
 
-We take the security of our software seriously. If you believe you have found a security vulnerability in any of our projects, please follow responsible disclosure guidelines.
+If you discover a security vulnerability in any repository under **AtlasInference**, please report it responsibly rather than opening a public GitHub issue.
 
-**Do not open a public issue for security vulnerabilities.**
+1. Use GitHub's **Private Vulnerability Reporting** feature on the affected repository (`Security` → `Advisories` → `Report a vulnerability`), if enabled.
+2. Otherwise, open a minimal tracking issue requesting a private security contact channel without disclosing exploit details.
 
-### Disclosure Process
+Please include:
+* Affected repository and version/commit
+* Steps to reproduce or proof-of-concept
+* Potential impact assessment
 
-1. Email your findings to **security@your-org.com** or use our private disclosure form on GitHub.
-2. Include full details of the vulnerability, steps to reproduce, and any proof-of-concept code.
-3. We will acknowledge receipt of your report within 48 hours and provide an estimated timeline for remediation.
-4. Please allow us reasonable time to address the vulnerability prior to any public disclosure.
-
-Thank you for helping keep our software and community safe!
+We aim to acknowledge reports within 72 hours and coordinate a fix before public disclosure.

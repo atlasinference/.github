@@ -1,24 +1,10 @@
-name: Q&A
-description: Ask a question and get help from the community.
-title: "[Q&A]: "
+title: "[Question]: "
 labels: ["question"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Welcome to Discussions! Ask your question below and someone from the community or team will assist you.
   - type: textarea
     id: question
     attributes:
-      label: Question
-      description: What would you like to ask or clarify?
-      placeholder: How do I configure...
+      label: What would you like help with?
+      description: Provide context, relevant code snippets, or configuration details.
     validations:
       required: true
-  - type: textarea
-    id: context
-    attributes:
-      label: What have you tried so far?
-      description: Provide details on setup, relevant code snippets, or approaches you have already tested.
-    validations:
-      required: false

@@ -1,52 +1,34 @@
 name: Bug Report
-description: Create a report to help us improve and fix reproducible bugs.
+description: Report a reproducible bug or unexpected behavior
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug"]
 body:
-  - type: markdown
+  - type: textarea
+    id: description
     attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
+      label: Description
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Minimal code snippet or commands to reproduce the behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What you expected to happen.
+    validations:
+      required: true
   - type: input
     id: environment
     attributes:
-      label: Environment / OS
-      description: What OS, browser, or runtime environment are you using?
-      placeholder: e.g., macOS 14.5, Node.js v20, Chrome 125
-    validations:
-      required: true
-  - type: textarea
-    id: describe-bug
-    attributes:
-      label: Describe the Bug
-      description: A clear and concise description of what the bug is.
-      placeholder: Describe what happened...
-    validations:
-      required: true
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps to Reproduce
-      description: Steps to reproduce the behavior.
-      placeholder: |
-        1. Go to '...'
-        2. Click on '....'
-        3. Scroll down to '....'
-        4. See error
-    validations:
-      required: true
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected Behavior
-      description: A clear and concise description of what you expected to happen.
-    validations:
-      required: false
-  - type: textarea
-    id: logs-screenshots
-    attributes:
-      label: Relevant Logs or Screenshots
-      description: Paste any error logs, stack traces, or screenshots here.
-      render: shell
+      label: Environment
+      description: OS, Python/C++ compiler version, and package version.
+      placeholder: "e.g., Ubuntu 24.04, Python 3.13, v0.1.0"
     validations:
       required: false
