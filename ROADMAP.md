@@ -1,11 +1,11 @@
-# AtlasInference Roadmap
+# atlasinference Roadmap
 
-AtlasInference focuses on **AI infrastructure, runtime efficiency, and applied deployment workflows**—from low-level C++ kernels to end-to-end training and retrieval pipelines.
+atlasinference focuses on **AI infrastructure, runtime efficiency, and applied deployment workflows**—from low-level C++ kernels to end-to-end training and retrieval pipelines.
 
 ## Active Repositories (Phase 1)
-* **[optimization-kernels](https://github.com/AtlasInference/optimization-kernels)** — C++ kernels and low-level utilities for quantization and inference acceleration.
-* **[finetune-pipelines](https://github.com/AtlasInference/finetune-pipelines)** — Practical, reproducible LLM fine-tuning pipelines and recipes in Python.
-* **[rag-starter](https://github.com/AtlasInference/rag-starter)** — Lightweight Python starter architecture for retrieval-augmented generation workflows.
+* **[optimization-kernels](https://github.com/atlasinference/optimization-kernels)** — C++ kernels and low-level utilities for quantization and inference acceleration.
+* **[finetune-pipelines](https://github.com/atlasinference/finetune-pipelines)** — Practical, reproducible LLM fine-tuning pipelines and recipes in Python.
+* **[rag-starter](https://github.com/atlasinference/rag-starter)** — Lightweight Python starter architecture for retrieval-augmented generation workflows.
 
 ## Planned Repositories (Phase 2)
 * **`inference-bench`** — Standardized latency, throughput, and memory-footprint benchmarking harness across hardware backends.
